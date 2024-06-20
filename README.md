@@ -26,7 +26,7 @@ This repository contains a Python script that automatically summarizes academic 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/gemini-auto-summarize.git
+git clone git@github.com:shogo-d-nakamura/gemini_auto_summarize.git
 ```
 
 2. Install the required dependencies:
@@ -45,19 +45,19 @@ conda env create -f env.yml
 - To process a single PDF file:
 
 ```
-python main.py --input <path-to-pdf-file>
+python main.py --input <filename>
 ```
 
 - To process multiple PDF files in a batch:
 
 ```
-python main.py --batch <path-to-directory>
+python main.py --batch <dirname>
 ```
 
 - To use the Gemini-1.5-Pro model (default is Gemini-1.5-Flash):
 
 ```
-python main.py --input <path-to-pdf-file> --pro
+python main.py --input <filename> --pro
 ```
 
 5. The script will generate a markdown file with the same name as the input PDF file, containing the summarized content.
