@@ -45,19 +45,19 @@ pip install -r requirements.txt
 - To process a single PDF file:
 
 ```
-python summarize.py --input <path-to-pdf-file>
+python main.py --input <path-to-pdf-file>
 ```
 
 - To process multiple PDF files in a batch:
 
 ```
-python summarize.py --batch <path-to-directory>
+python main.py --batch <path-to-directory>
 ```
 
 - To use the Gemini-1.5-Pro model (default is Gemini-1.5-Flash):
 
 ```
-python summarize.py --input <path-to-pdf-file> --pro
+python main.py --input <path-to-pdf-file> --pro
 ```
 
 5. The script will generate a markdown file with the same name as the input PDF file, containing the summarized content.
