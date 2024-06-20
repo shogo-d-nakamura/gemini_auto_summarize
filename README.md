@@ -32,7 +32,7 @@ git clone https://github.com/your-username/gemini-auto-summarize.git
 2. Install the required dependencies:
 
 ```
-pip install -r requirements.txt
+conda env create -f env.yml
 ```
 
 3. Set up your Gemini API key:
