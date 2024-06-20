@@ -17,7 +17,7 @@ if args.pro:
 else:
     print("Gemini-1.5-Flashを使用します。")
     
-filepath = "/mnt/c/Users/shogo/Downloads/"
+filepath = "path/to/pdf"
 
 # set api key
 with open('gemini_api', 'r') as f:
