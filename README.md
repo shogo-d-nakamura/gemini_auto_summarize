@@ -1,4 +1,6 @@
 qiita https://qiita.com/Shoelife2022/items/f69def09a6a272b42d16
+
+
 claudeで生成したREADME↓
 
 # Gemini Auto Summarize
