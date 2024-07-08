@@ -9,7 +9,7 @@ from pypdf import PdfReader
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', '-i', type=str, help='入力ファイルのパス')
 parser.add_argument('--batch', '-b', type=str, help='複数ファイルをバッチ処理する場合のディレクトリ')
-parser.add_argument('--pro', '-p', type=str, help='Gemini-1.5-Proを使用する場合に指定')
+parser.add_argument('--pro', '-p', action='store_true', help='Gemini-1.5-Proを使用する場合に指定')
 args = parser.parse_args()
 input = args.input
 if args.pro:
